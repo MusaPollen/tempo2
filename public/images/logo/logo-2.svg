@@ -7,7 +7,7 @@
 
   <!-- OMICS WELLNESS CARE Text with Gradient -->
   <text x="90" y="35" font-family="Arial, sans-serif" font-size="16" fill="url(#textGradient)" font-weight="bold">
-    OMICS <tspan x="90" y="55" font-size="14" font-weight="normal">WELLNESS CARE</tspan>
+    OMICS <tspan x="90" y="55" font-size="14" font-weight="normal">WELLNESS CARE.........</tspan>
   </text>
 
   <!-- Gradient Definition for Text -->
