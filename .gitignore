@@ -1,0 +1,52 @@
+# from chat gpt
+# Node modules
+node_modules/
+
+# .env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Next.js build output
+.next/
+
+# Production build
+out/
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+
+# Package-lock or yarn lock files if you don't want them in version control
+# package-lock.json
+# yarn.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Next.js related
+.cache/
+
+# Storybook build outputs (if using Storybook)
+.storybook-out/
+
+# .env files (should not be tracked in version control)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
