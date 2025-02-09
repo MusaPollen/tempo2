@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BONGO BOLTU",
+  title: "OMICS WELLNESS CARE",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };

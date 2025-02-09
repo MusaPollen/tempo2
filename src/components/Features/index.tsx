@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="At OMICS Wellness Care, we embrace cutting-edge innovations, including the use of alien technology, to achieve extraordinary results. Whether you're dreaming of a unique transformation—like growing a tail for enhanced agility or sporting the face of BONGOBOLTU for that truly iconic look—our advanced technologies can help you realize your wildest desires. Explore the future of health and aesthetics with us!"
+            paragraph="At OMICS Wellness Care, we embrace cutting-edge innovations, including the use of alien technology, to achieve extraordinary results. Whether you're dreaming of a unique transformation—like growing a tail for enhanced agility or sporting the face of a DRAGON for that truly iconic look—our advanced technologies can help you realize your wildest desires. Explore the future of health and aesthetics with us!"
             center
           />
 
