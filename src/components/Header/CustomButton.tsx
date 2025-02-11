@@ -10,6 +10,8 @@ import {
     DropdownItem,
 } from "@heroui/react";
 
+import Profile from "./Profile"
+
 
 export const ChevronDownIcon = () => {
     return (
@@ -53,6 +55,19 @@ const CustomButton = () => {
                     </DropdownItem>
                     <DropdownItem key="test3" description={"asdf"}>
                         TEST
+                    </DropdownItem>
+                    <DropdownItem key="test4" description={"asdf"}>
+                        <Profile />
+                    </DropdownItem>
+                    <DropdownItem key="test5" color="success">
+                        <a href="/api/auth/login">Login</a>
+                        <a href="/api/auth/login">Login</a>
+                        <a href="/api/auth/login">Login</a>
+                    </DropdownItem>
+                    <DropdownItem key="test6" color="danger">
+                        <a href="/api/auth/logout">Logout</a>
+                        <a href="/api/auth/logout">Logout</a>
+                        <a href="/api/auth/logout">Logout</a>
                     </DropdownItem>
 
 

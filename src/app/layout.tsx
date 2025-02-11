@@ -7,6 +7,8 @@ import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
+import { UserProvider } from "@auth0/nextjs-auth0/client";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -22,14 +24,16 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </Providers>
-      </body>
+      <UserProvider>
+        <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+          <Providers>
+            <Header />
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </Providers>
+        </body>
+      </UserProvider>
     </html>
   );
 }
