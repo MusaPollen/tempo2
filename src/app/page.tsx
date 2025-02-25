@@ -11,6 +11,9 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+
 export const metadata: Metadata = {
   title: "OMICS WELLNESS CARE",
   description: "This is Home for Startup Nextjs Template",
@@ -20,6 +23,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Header />
       <ScrollUp />
       <Hero />
       <Features />
@@ -31,6 +35,7 @@ export default function Home() {
       <Pricing />
       {/* <Blog /> */}
       {/* <Contact /> */}
+      <Footer />
     </>
   );
 }
